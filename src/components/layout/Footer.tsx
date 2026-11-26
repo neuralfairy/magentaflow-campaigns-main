@@ -87,7 +87,7 @@ const Footer = () => {
           
           {/* Legal Links */}
           <div className="flex space-x-6 text-sm text-muted-foreground mb-4 md:mb-0">
-            <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
+            <Link to="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link>
             <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
             <a href="https://salescentri.com/trust/security-privacy" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Security</a>
           </div>
